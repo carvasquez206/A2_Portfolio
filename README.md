@@ -40,6 +40,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 ## Screenshot
+![_Users_carlosvasquez_Desktop_A2_Portfolio_index html](https://user-images.githubusercontent.com/63617482/129468121-8c87c1c0-d79e-46d9-a0cd-b89d16fd1d6c.png)
 
 
 ## Review
