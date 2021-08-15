@@ -51,6 +51,11 @@ article {
 
 /* --------------------------------------------------------------------------------- 
 navbar thang thangs*/
+nav {
+    display:flex;
+    background-color: black;
+
+}
 ul {
     list-style-type: none;
     overflow: hidden;
@@ -87,14 +92,7 @@ p {
     text-align: center;
 }
 
-footer {
-    background-color: rgb(202, 202, 202);
-    text-align: center;
-}
-
-
-
-/* flexboxes 
+/* flexboxes, images 
 --------------------------------------------------------------------------------- */
 .flexbox-container {
     display: flex;
@@ -124,9 +122,20 @@ background-color: rgb(180, 34, 34);
     min-height: 200px;
 }
 
-/**/
-/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
+.item-images {
+    width: 400px;
+    height: 400px;
+}
 
+.item-images:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* media queries, got it from one of the assingments, will change more as I go 
+--------------------------------------------------------------------------------- */
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
     header {
@@ -147,4 +156,8 @@ background-color: rgb(180, 34, 34);
       background-color: #8ac4ff;
     }
   }
-  
+  /* footer */
+  footer {
+    background-color: rgb(202, 202, 202);
+    text-align: center;
+}
