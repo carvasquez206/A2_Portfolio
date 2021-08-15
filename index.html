@@ -2,52 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!--link to styles sheet-->
     <link rel="stylesheet" href="./assets/styles.css">
-    <title>Portfoliolilio</title>
+    <title>Carlos Vasquez</title>
 </head>
 
 <body>
     <header>
-        <h1>Carlos Vasquez</h1> 
+        <div class="container">
+            <img src="assets/images/seattle.jpg" alt="Seattle" style="width:100%;">
+            <h1 class="centered">Carlos Vasquez</h1>
+        </div>
         <nav>
             <ul>
                 <li>
-                    <a href="">Resume</a>
+                    <a href="#about">About</a>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <a href="https://github.com/carvasquez206">Github</a>
+                    <a href="#projects">Projects</a>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <a href="https://www.linkedin.com/in/carlos-v-28b436114/">LinkedIn</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main id= "projects" class="flexbox-container">
+          <!--aside-->
+        <article>
+            <h2>About</h2>
+            <p>
+                Hello! My name is Carlos Vasquez. 
+                I'm currently working as a Quality Assurance (QA) in the Greater Seattle Area for Video Streaming Service. 
+            </p>
+            <p>
+            I'm also a student at the UW Bootcamp learinng FullStack Web Development.
+            </p>
+            <p>
+                QA by day, artist by night. 
+            </p>
+        </article>
+        
+        <h2>Projects</h2>
         <!-- add an image since you don't currently have projects-->
-        <div class="1st project">
-            <h2>Art</h2>
-            <img src="./assets/images/church-art.jpg"/>
+        <div class="flexbox-item flexbox-1stproject">
+            <h2>Project 1</h2>
         </div>
-        <div class="2nd project">
-            <h2>Music</h2>
-            <img src="./assets/images/djmusicimage.jpg"/>
+        <div class="flexbox-item flexbox-2ndproject">
+            <h2>Project 2</h2>
         </div>
-        <div class="3rd project">
-            <h2>GYM</h2>
-            <img src="./assets/images/weights.jpg"/>
+        <div class="flexbox-item flexbox-3rdproject">
+            <h2>Project 3</h2>
         </div>
     </main>
 
+    <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p> 
+                <ul>
+                    <li>
+                        <a href="https://github.com/carvasquez206">Github</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/carlos-v-28b436114/">LinkedIn</a>
+                    </li>
+                </ul>
+            </p>
+    </section>
+
     <footer>
-        <h2> Portfoliolilio</h2>
         <p>&copy; 2021 Carlos Vasquez, Inc.</p>
     </footer>
+
 </body>
 
 </html>
